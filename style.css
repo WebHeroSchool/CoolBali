@@ -73,4 +73,10 @@ a {
 	font-size: 16px;
 	line-height: 19px;
 	color: #f8eee4;
+	padding-left: 164px;
+
+}
+
+.main__section-btn {
+	margin-left: 164px;
 }
