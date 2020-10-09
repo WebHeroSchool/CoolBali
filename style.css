@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .background-image {
 	background: url(images/images-bg.jpg);
 	width: 100%;
@@ -11,18 +6,17 @@
 	background-size: cover;
 	background-position: bottom center;
 	display: flex;
+	display: inline-block;
 }
 
 .header {
- flex: 22%;
- display:flex;
- justify-content: space-between;
- margin: 0 auto;
- width: 88%; 
+	display: flex;
+	justify-content: space-between;
+	margin: 103px auto;
+  width: 88%; 
 }
 
 .header__logo-main {
-	margin-top: 103px; 
 	padding-left: 84px;
 }
 
@@ -34,9 +28,8 @@ a {
 .header__menu {
 	font-family: Museo Sans Cyrl;
 	font-size: 16px;
+	font-weight: 500;
 	line-height: 19px;
-	margin-top: 103px;
-	margin-right: 113px;
 }
 
 .header__menu-link {
@@ -45,4 +38,9 @@ a {
 
 .header__menu-link:last-child {
 	margin-right: 0;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
 }
