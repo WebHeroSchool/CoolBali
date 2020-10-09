@@ -44,3 +44,33 @@ a {
 	display: flex;
 	justify-content: space-between;
 }
+
+.main__section-title {
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 76px;
+	line-height: 80px;
+	padding-left: 164px;
+  padding-top: 92px;
+  color: #f8eee4;
+  opacity: 0.4;
+}
+
+.main__section-title_second {
+	font-family: PT Serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 10px;
+	padding-left: 229px;
+	margin-top: -92px;
+	color: #f8eee4;
+}
+
+.main__section-text {
+	font-family: Museo Sans Cyrl;
+	font-size: 16px;
+	line-height: 19px;
+	color: #f8eee4;
+}
