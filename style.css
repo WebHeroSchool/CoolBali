@@ -90,9 +90,9 @@ a {
 }
 
 .main__images-img {
-	padding-right: 24px;
+	margin-right: 24px;
 }
 
-.main__images-img {
-	padding-right: 0;
+.main__images-img:last-child {
+	margin-right: 0;
 }
