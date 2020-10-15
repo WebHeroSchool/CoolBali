@@ -49,10 +49,10 @@ a {
 	font-family: PT Serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 76px;
+	font-size: 228px;
 	line-height: 80px;
 	padding-left: 164px;
-  padding-top: 92px;
+  padding-top: -150px;
   color: #f8eee4;
   opacity: 0.4;
 }
@@ -61,10 +61,10 @@ a {
 	font-family: PT Serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 70px;
 	line-height: 10px;
-	padding-left: 229px;
-	margin-top: -92px;
+	padding-left: 239px;
+	margin-top: -159px;
 	color: #f8eee4;
 }
 
