@@ -27,7 +27,7 @@ a {
 
 .header__menu {
 	font-family: Museo Sans Cyrl;
-	font-size: 16px;
+	font-size: 22px;
 	font-weight: 500;
 	line-height: 19px;
 }
@@ -49,8 +49,8 @@ a {
 	font-family: PT Serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 228px;
-	line-height: 80px;
+	font-size: 280px;
+	line-height: 9px;
 	padding-left: 164px;
   padding-top: -150px;
   color: #f8eee4;
@@ -61,7 +61,7 @@ a {
 	font-family: PT Serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 70px;
+	font-size: 98px;
 	line-height: 10px;
 	padding-left: 239px;
 	margin-top: -159px;
@@ -70,8 +70,8 @@ a {
 
 .main__section-text {
 	font-family: Museo Sans Cyrl;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 22px;
+	line-height: 26px;
 	color: #f8eee4;
 	padding-left: 164px;
 
@@ -80,7 +80,7 @@ a {
 .main__section-btn {
 	margin-left: 164px;
 	font-family: Museo Sans Cyrl;
-	font-size: 16px;
+	font-size: 22px;
 	line-height: 19px;
 	color: #fff;
 	background: #d4bea3;
