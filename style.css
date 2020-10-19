@@ -29,7 +29,7 @@ a {
 	font-family: Museo Sans Cyrl;
 	font-size: 22px;
 	font-weight: 500;
-	line-height: 19px;
+	line-height: 26px;
 }
 
 .header__menu-link {
@@ -95,4 +95,46 @@ a {
 
 .main__images-img:last-child {
 	margin-right: 0;
+}
+
+@media (max-width: 1024px) {
+	.header__menu {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.main__section-title {
+		font-size: 200px;
+		line-height: 265px;
+		margin-top: 28px;
+		margin-left: -39px;
+	}
+
+	.main__section-title_second {
+		font-size: 70px;
+		line-height: 93px;
+	}
+
+	.main__section-text {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.main__section-btn {
+		font-size: 16px;
+		line-height: 19px;
+		border-radius: 48px;
+	}
+
+	.main__images-img {
+		margin-right: 24px;
+		width: 225px;
+  	height: 300px;
+  	border-radius: 5px;
+  	transform: matrix(-1, 0, 0, 1, 0, 0);
+	}
+
+	.main__images-img:last-child {
+    margin-right: 0;
+  }
 }
