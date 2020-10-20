@@ -207,7 +207,6 @@ a {
 		padding: 36px 41px 0 107px;
 		width: 292px;
 		height: 87px;
-		left: calc(50% - 292px/2 + 1px);
 	}
 
 	.main__section-btn {
