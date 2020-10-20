@@ -98,43 +98,63 @@ a {
 }
 
 @media (max-width: 1024px) {
+
+	.header__logo-main {
+    padding-left: 0;
+  }
+
 	.header__menu {
 		font-size: 16px;
 		line-height: 19px;
 	}
 
 	.main__section-title {
-		font-size: 200px;
+		font-size: 178px;
 		line-height: 265px;
-		margin-top: 28px;
-		margin-left: -39px;
+		margin-top: -40px;
+		padding-left: 43px;
 	}
 
 	.main__section-title_second {
-		font-size: 70px;
-		line-height: 93px;
+		font-size: 54px;
+		line-height: 80px;
+		margin-top: -254px;
+		padding-left: 94px;
 	}
 
 	.main__section-text {
-		font-size: 16px;
+		font-size: 13px;
 		line-height: 19px;
+		margin-top: -40px;
+    padding-left: 51px;
 	}
 
 	.main__section-btn {
 		font-size: 16px;
 		line-height: 19px;
 		border-radius: 48px;
+		margin-left: 50px;
+	}
+
+	.main__images {
+		display: flex;
 	}
 
 	.main__images-img {
+		margin-top: 61px;
 		margin-right: 24px;
-		width: 225px;
-  	height: 300px;
+		width: 208px;
+  	height: 327px;
   	border-radius: 5px;
-  	transform: matrix(-1, 0, 0, 1, 0, 0);
+  	padding-right: 30px;
+  	transform: matrix(-1, 0, 0, 1, 0, 0); 	
 	}
 
 	.main__images-img:last-child {
     margin-right: 0;
   }
+}
+
+@media (max-width: 375px) {
+	
 }
