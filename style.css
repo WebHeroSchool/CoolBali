@@ -95,11 +95,18 @@ a {
 	cursor: pointer;
 }
 
+.main__images {
+	display: flex;
+}
+
 .main__images-img {
+	width: 225px;
+	height: 300px;
 	margin-right: 33px;
 }
 
 .main__images-img:last-child {
+	display: none;
 	margin-right: 0;
 }
 
@@ -107,15 +114,45 @@ a {
 MEDIA
 ...............*/
 
+
 @media (max-width: 1025px) {
 	.main__section-title {
 		font-weight: bold;
 		font-size: 200px;
 		line-height: 265px;
-		margin-top: -33px;
-		margin-left: 20px;
+		margin-top: -50px;
+		margin-left: -107px;
 	}
+
+	.main__section-title_second {
+		font-weight: bold;
+		font-size: 70px;
+		line-height: 93px;
+		margin-top: -265px;
+    margin-left: -118px; 
+	}
+
+	.main__section-text {
+		font-size: 22px;
+		line-height: 22px;
+		padding-left: 77px;
+	}
+
+	.main__section-btn {
+		margin-left: 142px;
+		margin-top: 36px;
+	}
+
+	.main__images-img {
+		display: flex;
+		margin-right: 33px;
+		margin-left: 30px;
 }
+
+.main__images-img:last-child {
+	margin-right: 0;
+}
+
 
 
 @media (max-width: 600px) {
