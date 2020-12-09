@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+}
+
 .background-image {
 	background: url(images/images-bg.jpg);
 	width: 100%;
@@ -12,12 +16,13 @@
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin: 103px auto;
+	margin: 98px auto 0 0;
   width: 88%;
 }
 
 .header__logo-main {
-	padding-left: 84px;
+	margin-top: -16px;
+	padding-left: 85px;
 }
 
 a {
@@ -31,6 +36,7 @@ a {
 	font-weight: 500;
 	line-height: 26px;
 	margin-right: 0;
+	margin-top: -3px;
 }
 
 .burger__menu {
@@ -38,7 +44,7 @@ a {
 }
 
 .header__menu-link {
-	margin-right: 24px;
+	margin-right: 29px;
 }
 
 .header__menu-link:last-child {
@@ -56,8 +62,8 @@ a {
 	font-weight: bold;
 	font-size: 280px;
 	line-height: 9px;
-	padding-left: 164px;
-  margin-top: 107px;
+	padding-left: 200px;
+  margin-top: 207px;
   color: #f8eee4;
   opacity: 0.4;
 }
@@ -68,8 +74,8 @@ a {
 	font-weight: bold;
 	font-size: 98px;
 	line-height: 10px;
-	padding-left: 239px;
-	margin-top: -159px;
+	padding-left: 283px;
+	margin-top: -134px;
 	color: #f8eee4;
 }
 
@@ -78,12 +84,12 @@ a {
 	font-size: 22px;
 	line-height: 26px;
 	color: #f8eee4;
-	padding-left: 164px;
+	padding-left: 221px;
+	margin-top: -3px;
 
 }
 
 .main__section-btn {
-	margin-left: 164px;
 	font-family: Museo Sans Cyrl;
 	font-size: 22px;
 	line-height: 19px;
@@ -91,12 +97,18 @@ a {
 	background: #d4bea3;
 	border-radius: 48px;
 	padding: 12px 62px;
-	margin-top: 24px;
+	margin-top: 22px;
+	margin-left: 247px;
 	cursor: pointer;
 }
 
+.main__images {
+	padding-right: 0;
+	padding-top: 116px;
+}
+
 .main__images-img {
-	margin-right: 33px;
+	margin-right: 30px;
 }
 
 .main__images-img:last-child {
@@ -110,55 +122,78 @@ MEDIA
 
 @media (max-width: 1025px) {
 	.header__logo {
-		margin-left: -75px;
+		margin-left: -48px;
+    margin-top: -26px;
 	}
+
+	.header__menu {
+		font-size: 16px;
+		line-height: 19px;
+		margin-right: -93px;
+    margin-top: -24px;
+	}
+
+	.header__menu-link {
+	margin-right: 24px;
+}
+
+.header__menu-link:last-child {
+	margin-right: 0;
+}
 
 	.main__section-title {
 		font-weight: bold;
 		font-size: 200px;
 		line-height: 265px;
-		margin-top: -50px;
-		margin-left: -107px;
+		margin-top: 82px;
+		margin-left: -159px;
 	}
 
 	.main__section-title_second {
 		font-weight: bold;
 		font-size: 70px;
 		line-height: 93px;
-		margin-top: -265px;
-    margin-left: -118px; 
+		margin-top: -268px;
+    margin-left: -184px; 
 	}
 
 	.main__section-text {
-		font-size: 22px;
-		line-height: 22px;
-		padding-left: 77px;
+		font-size: 16px;
+		line-height: 19px;
+		padding-left: 58px;
+    margin-top: -44px;
 	}
 
 	.main__section-btn {
-		margin-left: 90px;
-		margin-top: 36px;
+		margin-left: 57px;
+		margin-top: 24px;
+		font-size: 16px;
+		line-height: 19px;
 	}
 
 	.main__images {
-	display: flex;
+		display: flex;
+		padding-top: 176px;
+		padding-left: 88px;
 }
 
 .main__images-img {
-		width: 225px;
-		height: 300px;
-		margin-right: 33px;
-		margin-left: 30px;
+		width: 210px;
+		height: 270px;
+		margin-right: 24px;
 }
 
 .main__images-img:last-child {
-	display: none;
 	margin-right: 0;
 }
 
 
 
 @media (max-width: 600px) {
+	.header__logo {
+		margin-top: -46px;
+	}
+
 	.header__menu {
 		display: none;
 	}
@@ -167,37 +202,38 @@ MEDIA
 		display: block;
     width: 25px;
     height: 17px;
-    padding-top: 0px;
-    margin-right: 33px;
+    margin-top: -41px;
+    margin-right: -12px;
     color: #fff;
 	}
 
 	.main__section-title {
 		font-weight: bold;
-		font-size: 224px;
+		font-size: 170px;
 		line-height: 225px;
-		margin-top: -34px;
-		margin-left: -116px;
+		margin-top: 38px;
+		margin-left: -184px;
 	}
 
 	.main__section-title_second {
 		font-weight: bold;
-		font-size: 81px;
+		font-size: 60px;
 		line-height: 79px;
 		align-items: center;
-		margin-top: -235px;
-		margin-left: -119px; 
+		margin-top: -215px;
+		margin-left: -208px; 
 	}
 
 	.main__section-text {
-		font-size: 22px;
+		font-size: 18px;
 		line-height: 22px;
-		padding-left: 77px;
+		padding-left: 48px;
+		margin-top: -31px;
 	}
 
 	.main__section-btn {
-		margin-left: 142px;
-		margin-top: 36px;
+		margin-left: 76px;
+		margin-top: 12px;
 	}
 
 	.main__images {
