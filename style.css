@@ -119,12 +119,32 @@ a {
 MEDIA
 ...............*/
 
+@media (max-width: 1930px) {
+	.header__logo {
+		margin-left: 114px;
+		margin-top: 7px;
+	}
+
+	.header__menu {
+		margin-right: -112px;
+		padding-top: 7px;
+	}
+
+	.header__menu-link {
+    margin-right: 32px;
+}
 
 @media (max-width: 1025px) {
 	.header__logo {
 		margin-left: -48px;
     margin-top: -26px;
 	}
+
+	.main__section-title {
+		padding-left: 200px;
+    margin-top: 207px;
+	}
+}
 
 	.header__menu {
 		font-size: 16px;
