@@ -312,6 +312,7 @@ MEDIA
   height: 26px;
   cursor: pointer;
   z-index: 1;
+  color: #fff;
 }
 /* добавляем "гамбургер" */
 .menu__btn > span,
