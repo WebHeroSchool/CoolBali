@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	box-sizing: border-box;
 }
 
 .background-image {
@@ -20,9 +21,9 @@ body {
   width: 88%;
 }
 
-.header__logo-main {
-	margin-top: -16px;
-	padding-left: 85px;
+.header__logo {
+	margin-left: 202px;
+	margin-top: -9px;
 }
 
 a {
@@ -105,39 +106,40 @@ a {
 	color: #fff;
 	background: #d4bea3;
 	border-radius: 48px;
-	padding: 17px 76px;
-	margin-top: 18px;
-	margin-left: 233px;
+	padding: 20px 87px;
+	margin-top: 15px;
+	margin-left: 223px;
 	cursor: pointer;
 }
 
 .main__images {
-	padding-right: 10px;
+	padding-right: 0;
 	padding-top: 218px;
 }
 
 .main__images-img {
 	margin-right: 30px;
+	border-radius: 5px;
+	box-shadow: none;
 }
 
 .main__images-img:last-child {
 	margin-right: 0;
 }
-
 /*..............
 MEDIA
 ...............*/
 
 @media (max-width: 1930px) {
 	.header__logo {
-		margin-left: 114px;
-		margin-top: 7px;
+		margin-left: 202px;
+		margin-top: -9px;
 	}
 
 	.header__menu {
 		font-size: 22px;
     line-height: 26px;
-    margin-right: -103px;
+    margin-right: -112px;
     margin-top: 2px;
 	}
 
@@ -220,15 +222,23 @@ MEDIA
 	display: inline-block;
 }
 	.header__logo {
-		margin-left: 52px;
-		margin-top: -28px;
-	}
+		margin-left: 138px;
+    margin-top: -48px;
+}	
 
 	.header__menu {
 		font-size: 16px;
     line-height: 19px;
     margin-right: -82px;
     margin-top: -25px;
+  }
+
+  .header__logo-main {
+  	width: 104px;
+  	height: 39px;
+  	margin-top: 13px;
+    margin-left: 4px;
+}
   }
 
 	.header__menu-link {
@@ -238,7 +248,7 @@ MEDIA
   .main__section-title {
   	font-size: 200px;
   	line-height: 265px;
-  	margin-top: 78px;
+  	margin-top: 87px;
   	margin-left: -58px;
   }
 
@@ -266,17 +276,28 @@ MEDIA
 
 	.main__images {
 		display: flex;
-		padding-top: 176px;
-		margin-right: -72px;
+		padding-top: 179px;
 }
   .main__images-img {
 		width: 210px;
 		height: 270px;
-		margin-right: 24px;
+		margin-right: 11px;
 }
 
   .main__images-img:last-child {
 	margin-right: 0;
+	}
+
+	.third {
+		width: 158px;
+		height: 265px;
+	}
+
+	.first {
+		width: 225px;
+		height: 300px;
+		margin-top: -9px;
+		margin-right: 20px;
 	}
 }
 
@@ -295,6 +316,10 @@ MEDIA
 	.header__logo {
 		margin-left: -45px;
     padding-top: 0;
+	}
+
+	.header__logo-main {
+		margin-left: 1px;
 	}
 
 	.header__menu {
