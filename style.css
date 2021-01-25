@@ -388,7 +388,13 @@ MEDIA
 }
 @media (max-width: 600px) {
   .header__logo {
-    margin-top: -46px;
+    margin-top: -57px;
+    margin-left: 50px;
+  }
+
+  .header__logo-main {
+    width: 122px;
+    height: 65px;
   }
 
   .header__menu {
@@ -414,7 +420,7 @@ MEDIA
   display: flex; /* используем flex для центрирования содержимого */
   align-items: center;  /* центрируем содержимое кнопки */
   position: fixed;
-  top: 53px;
+  top: 65px;
   width: 26px;
   height: 26px;
   cursor: pointer;
@@ -485,31 +491,32 @@ MEDIA
 }
   .main__section-title {
     font-weight: bold;
-    font-size: 170px;
+    font-size: 205px;
     line-height: 225px;
-    margin-top: 38px;
+    margin-top: 81px;
     margin-left: -184px;
   }
 
   .main__section-title_second {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 71px;
     line-height: 79px;
     align-items: center;
-    margin-top: -215px;
-    margin-left: -208px; 
+    margin-top: -232px;
+    margin-left: -191px; 
   }
 
   .main__section-text {
-    font-size: 18px;
-    line-height: 22px;
-    padding-left: 107px;
-    margin-top: -34px;
+    font-size: 23px;
+    line-height: 20px;
+    padding-left: 137px;
+    margin-top: -7px;
   }
 
   .main__section-btn {
-    margin-left: 76px;
-    margin-top: 12px;
+    margin-left: 92px;
+    margin-top: 23px;
+    padding: 15px 82px;
   }
 
   .main__images {
