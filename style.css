@@ -322,11 +322,19 @@ MEDIA
     margin-top: 6px;
   }
 }
-
+@media (max-width: 1110px) {
+	.background-image {
+    width: 102%;
+    height: 108vh;
+  }
+  .main__images {
+  	margin-right: 1px;
+  }
+}
 @media (max-width: 1025px) {
   .background-image {
-  width: 120%;
-  height: 120vh;
+  width: 133%;
+  height: 133vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -391,7 +399,7 @@ MEDIA
   .main__images {
     display: flex;
     padding-top: 178px;
-    margin-right: -144px;
+    margin-right: -159px;
 }
 
 .main__images-img {
@@ -422,6 +430,14 @@ MEDIA
     margin-right: 23px;
   }
 }
+
+@media (max-width: 800px) {
+	.background-image {
+		width: 169%;
+    height: 169vh;
+  }
+}
+
 @media (max-width: 600px) {
   .logo {
     margin-top: -57px;
