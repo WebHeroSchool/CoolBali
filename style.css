@@ -134,8 +134,9 @@ body {
 MEDIA
 ...............*/
 @media(max-width: 1690px){
-.section{
-  margin-left: auto;
+.main-images {
+	display: flex;
+	padding-left: 20px;
 }
 }
 
@@ -159,6 +160,7 @@ MEDIA
   margin-right: 24px;
   width: 222px;
   height: 290px;
+  margin-right: 666px;
 }
 .first {
   margin-right: 26px;
@@ -173,39 +175,51 @@ MEDIA
 
 @media(max-width: 1366px){
 .header {
-  padding-top: 65px;
+  padding-top: 52px;
 }
+
 .logo {
-  padding-left: 140px;
-  width: 104px;
-  height: 39px;
+	padding-top: 4px;
+  padding-left: 133px;
 }
+
+.logo__main {
+	width: 104px;
+	height: 39px;
+}
+
 .header__menu {
   margin-top: 5px;
-  padding-right: 75px;
+  padding-right: 62px;
 }
+
 .header__menu-link {
-  margin-right: 26px;
+  margin-right: 20px;
   font-size: 16px;
   line-height: 19px;
 }
+
 .header__menu-link:last-child {
-  margin-right: 7px;
+  margin-right: 13px;
 }
+
 .section {
   margin-right: 60px;
 }
+
 .section__title {
   margin-top: 95px;
   font-size: 200px;
   line-height: 265px;
 }
+
 .section__subtitle {
   margin-top: -105px;
   margin-left: 59px;
   font-size: 70px;
   line-height: 93px;
 }
+
 .section__text {
   margin-top: -50px;
   max-width: 399px;
@@ -213,6 +227,7 @@ MEDIA
   font-size: 16px;
   line-height: 19px;
 }
+
 .section__btn {
   margin-top: 9px;
   min-width: 182px;
@@ -220,19 +235,23 @@ MEDIA
   font-size: 16px;
   line-height: 19px;
 }
-.main__imagesmain__images-img {
+
+.main__images {
   margin-top: 160px;
 }
+
 .main__images-img {
   margin-right: 24px;
   width: 202px;
   height: 270px;
 }
+
 .first {
   margin-right: 26px;
   width: 225px;
   height: 300px;
 }
+
 .main__images-img:last-child {
   width: 146px;
   height: 270px;
@@ -240,10 +259,16 @@ MEDIA
 }
 
 @media(max-width: 1125px){
+	.logo {
+		padding-left: 24px;
+}
+
+.logo__main {
+
+}
 
 .section{
   margin-right: 0px;
-}
 }
 
 @media (max-width: 1040px) {
