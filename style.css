@@ -249,49 +249,19 @@ MEDIA
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 1125px){
 	.logo {
-		padding-left: 24px;
+		padding-left: 33px;
 }
-
-.logo__main {
-
-}
-
 .section{
   margin-right: 0px;
 }
+}
 
 @media (max-width: 1040px) {
-.header {
-  margin-left: -100px;
-}
 .header__menu {
   margin-top: 9px;
-  padding-right: 30px;
+  padding-right: 25px;
 } 
 .header__menu-link:last-child {
   margin-right: 7px;
@@ -299,20 +269,28 @@ MEDIA
 .section {
   margin-right: 15px;
 }
-.section__text {
-  margin-right: 15px;
+.section-title {
+  margin-left: 81px;
 }
-.section__btn {
-  margin-left: 15px;
+.section-subtitle {
+  margin-left: 198px;
+}
+.section-text {
+  margin-left: 151px;
+  font-size: 16px;
+}
+.section-btn {
+  margin-left: 146px;
 }
 .main__images-img{
-  margin-right: 22px;
-}
-.first {
   margin-right: 25px;
 }
+.first {
+  margin-left: 38px;
+}
 .main__images-img:last-child {
-  width: 38px;
+  width: 42px;
+  height: 270px;
 }
 }
 
