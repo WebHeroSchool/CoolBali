@@ -202,61 +202,74 @@ MEDIA
 .header__menu-link:last-child {
   margin-right: 13px;
 }
-
 .section {
-  margin-right: 60px;
+  margin-right: 80px;
 }
-
-.section__title {
-  margin-top: 95px;
-  font-size: 200px;
-  line-height: 265px;
+.section-title {
+  margin-top: 141px;
+  font-size: 195px;
+  padding-left: 39px;
 }
-
-.section__subtitle {
-  margin-top: -105px;
-  margin-left: 59px;
+.section-subtitle {
+  margin-top: -51px;
+  margin-left: 97px;
   font-size: 70px;
-  line-height: 93px;
 }
-
-.section__text {
-  margin-top: -50px;
+.section-text {
+  margin-top: -53px;
   max-width: 399px;
-  margin-left: 1px;
+  margin-left: 50px;
   font-size: 16px;
-  line-height: 19px;
 }
-
-.section__btn {
-  margin-top: 9px;
+.section-btn {
+  margin-top: 4px;
   min-width: 182px;
-  margin-left: 17px;
+  margin-left: 49px;
   font-size: 16px;
   line-height: 19px;
+  padding: 14px 64px 14px 64px;
 }
-
 .main__images {
   margin-top: 160px;
 }
-
 .main__images-img {
   margin-right: 24px;
   width: 202px;
   height: 270px;
 }
-
 .first {
   margin-right: 26px;
   width: 225px;
   height: 300px;
 }
-
 .main__images-img:last-child {
-  width: 146px;
+  width: 180px;
   height: 270px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width: 1125px){
 	.logo {
