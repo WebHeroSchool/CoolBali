@@ -207,30 +207,30 @@ MEDIA
 }
 .section-title {
   margin-top: 141px;
-  font-size: 195px;
-  padding-left: 39px;
+  font-size: 194px;
+  padding-left: 56px;
 }
 .section-subtitle {
   margin-top: -51px;
-  margin-left: 97px;
-  font-size: 70px;
+  margin-left: 120px;
+  font-size: 69px;
 }
 .section-text {
   margin-top: -53px;
   max-width: 399px;
-  margin-left: 50px;
-  font-size: 16px;
+  margin-left: 71px;
+  font-size: 15px;
 }
 .section-btn {
-  margin-top: 4px;
+  margin-top: 7px;
   min-width: 182px;
-  margin-left: 49px;
+  margin-left: 68px;
   font-size: 16px;
   line-height: 19px;
   padding: 14px 64px 14px 64px;
 }
 .main__images {
-  margin-top: 160px;
+  margin-top: 174px;
 }
 .main__images-img {
   margin-right: 24px;
@@ -241,6 +241,7 @@ MEDIA
   margin-right: 26px;
   width: 225px;
   height: 300px;
+  margin-left: 105px;
 }
 .main__images-img:last-child {
   width: 180px;
