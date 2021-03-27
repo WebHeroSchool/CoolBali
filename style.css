@@ -4,7 +4,7 @@ body {
 	background-size: cover;
   background-position: center;
   overflow: auto;
-  min-height: 100vh;
+  min-height: 98vh;
   box-sizing: border-box;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .section-title {
-	font: 700 285px/165px pt_serifbold, arial, helvetica, sans-serif;
+	font: 700 275px/165px pt_serifbold, arial, helvetica, sans-serif;
 	color: #f8eee4;
 	opacity: 0.4;
 	margin-bottom: 0;
@@ -112,7 +112,7 @@ body {
 .main__images-img {
 	height: 380px;
   width: 284px;
-  margin-right: 32px;
+  margin-right: 29px;
   border-radius: 5px;
 }
 
@@ -124,8 +124,8 @@ body {
 
 .main__images-img:last-child {
   margin-right: 0px;
-  height: 385px;
-  width: 208px;
+  height: 370px;
+  width: 194px;
   border-radius: 5px;
 }
 
@@ -150,7 +150,7 @@ MEDIA
   font-size: 16px;
   line-height: 19px;
 }
-.section__btn {
+.section-btn {
   min-width: 182px;
   padding: 13px;
   font-size: 16px;
@@ -289,7 +289,7 @@ MEDIA
   margin-left: 38px;
 }
 .main__images-img:last-child {
-  width: 42px;
+  width: 36px;
   height: 270px;
 }
 }
@@ -310,20 +310,20 @@ MEDIA
 }
 
 @media (max-width: 920px){
-.section__title{
+.section-title{
   font-size: 160px;
 }
-.section__subtitle{
+.section-subtitle {
   font-size: 50px;
   line-height: 79px;
 }
-.section__text {
+.section-text {
   max-width: 300px;
   font-size: 15px;
   text-align: center;
   line-height: 22px;
 }
-.section__btn {
+.section-btn {
   margin-left: 62px;
 }
 }
@@ -357,22 +357,22 @@ MEDIA
 .section{
   margin-left: 0px;
 }
-.section__title{
+.section-title {
   margin-top: -2px;
   font-size: 170px;
 }
-.section__subtitle{
+.section-subtitle {
   font-size: 60px;
   line-height: 79px;
 }
-.section__text {
+.section-text {
   margin-top: 33px;
   max-width: 290px;
   font-size: 18px;
   text-align: center;
   line-height: 22px;
 }
-.section__btn {
+.section-btn {
   margin-top: 17px;
   margin-left: 0px;
 }
@@ -388,15 +388,15 @@ MEDIA
 .main{
   margin-top: 40px;
 }
-.section__title{
+.section-title {
   margin-top: -2px;
   font-size: 170px;
 }
-.section__subtitle{
+.section-subtitle {
   font-size: 60px;
   line-height: 79px;
 }
-.section__text {
+.section-text {
   margin-top: 33px;
   max-width: 290px;
   margin-left: 27px;
@@ -404,7 +404,7 @@ MEDIA
   text-align: center;
   line-height: 22px;
 }
-.section__btn {
+.section-btn {
   margin-top: 17px;
 }
 .header__menu {
@@ -516,16 +516,16 @@ MEDIA
 .section{
   padding-left: 0px;
 }
-.section__title{
+.section-title {
   margin-bottom: none;
 }
-.section__subtitle{
+.section-subtitle {
   margin-top: -95px;
 }
-.section__text {
+.section-text {
   margin-top: -21px;
 }
-.section__btn {
+.section-btn {
   margin-left: -13px;
 }
 }
