@@ -123,9 +123,9 @@ body {
 }
 
 .main__images-img:last-child {
-  margin-right: 0px;
+  margin-right: 0;
   height: 370px;
-  width: 194px;
+  width: 153px;
   border-radius: 5px;
 }
 
