@@ -33,7 +33,7 @@ body {
 }
 
 .header__menu {
-	font-family: Museo Sans Cyrl;
+	font-family: 'Museo Sans Cyrl';
 	font-size: 22px;
 	padding-right: 107px;
 	margin-top: 11px;
@@ -64,7 +64,7 @@ body {
 }
 
 .section-title {
-	font: 700 275px/165px pt_serifbold, arial, helvetica, sans-serif;
+	font: 700 275px/165px 'pt_serifbold', 'arial', 'helvetica', 'sans-serif';
 	color: #f8eee4;
 	opacity: 0.4;
 	margin-bottom: 0;
@@ -73,25 +73,25 @@ body {
 
 .section-subtitle {
 	margin-left: 91px;
-  margin-top: -15px;
+  margin-top: -6px;
   color: #f8eee4;
-  font: 700 98px/70px pt_serifbold, arial, helvetica, sans-serif;
+  font: 700 98px/70px 'pt_serifbold', 'arial', 'helvetica', 'sans-serif';
 }
 
 .section-text {
 	padding-top: 5px;
-  margin-top: -35px;
+  margin-top: -36px;
   width: 542px;
   margin-left: 25px;
   color: #f8eee4;
-  font: 22px/26px Museo Sans Cyrl, arial, helvetica, sans-serif;
+  font: 22px/26px 'Museo Sans Cyrl', 'arial', 'helvetica', 'sans-serif';
 }
 
 .section-btn {
   margin-top: 9px;
   text-align: center;
   display: inline-block;
-  font: 22px/26px Museo Sans Cyrl, arial, helvetica, sans-serif;
+  font: 22px/26px 'Museo Sans Cyrl', 'arial', 'helvetica', 'sans-serif';
   color: #f8eee4;
   background: #d4bea3;
   cursor: pointer;
@@ -105,8 +105,9 @@ body {
 .main__images {
 	align-items: center;
   display: flex;
-  margin-top: 213px;
+  margin-top: 222px;
   margin-left: auto;
+  margin-right: 1px;
 }
 
 .main__images-img {
@@ -125,7 +126,7 @@ body {
 .main__images-img:last-child {
   margin-right: 0;
   height: 370px;
-  width: 153px;
+  width: 206px;
   border-radius: 5px;
 }
 
@@ -429,7 +430,7 @@ MEDIA
   display: block;
   padding: 11px 0;
   color: #333;
-  font-family: Museo Sans Cyrl900, arial, helvetica, sans-serif;
+  font-family: 'Museo Sans Cyrl900', 'arial', 'helvetica', 'sans-serif';
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
