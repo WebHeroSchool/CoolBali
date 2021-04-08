@@ -380,7 +380,10 @@ MEDIA
 }
 
 @media (max-width: 590px){
-.header__menu{
+  .logo__main {
+    margin-top: -11px;
+  }
+  .header__menu{
   display: none;
 }
 .header{
@@ -518,15 +521,18 @@ MEDIA
   padding-left: 0px;
 }
 .section-title {
-  margin-bottom: none;
+  margin-top: 49px;
+  margin-left: -55px;
 }
 .section-subtitle {
-  margin-top: -95px;
+  margin-top: -52px;
+  margin-left: 59px;
 }
 .section-text {
   margin-top: -21px;
 }
 .section-btn {
   margin-left: -13px;
+  margin-top: -5px;
 }
 }
