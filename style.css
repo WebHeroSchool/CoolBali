@@ -446,6 +446,7 @@ MEDIA
 	height: 17px;
 	color: #fff;
 	cursor: pointer;
+  flex-direction: column;
 }
 .header__menu-link:last-child {
   margin-right: -2px;
