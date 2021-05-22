@@ -13,10 +13,6 @@ body {
 	margin: auto;
 }
 
-.burger__menu {
-	display: none;
-}
-
 .header {
 	display: flex;
 	justify-content: space-between;
