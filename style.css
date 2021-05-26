@@ -28,9 +28,9 @@ body {
 	height: 55px;
 }
 
-.menu__toggle {
-  display: none;
-}
+#menu__toggle {
+    opacity: 0;
+  }
 
 .header__menu {
 	font-family: 'Museo Sans Cyrl';
@@ -484,7 +484,8 @@ MEDIA
   box-shadow: 1px 0 6px rgba(0, 0, 0, .2)
 }
 .header__menu-link {
-  display: none;
+  display: block;
+  margin-top: 10px;
   padding: 12px 24px;
   color: #000;
   font-family: 'Roboto', sans-serif;
