@@ -361,11 +361,13 @@ MEDIA
   height: 250px;
 }
 }
+
 @media (max-width: 860px){
 .main__images-img:last-child{
   display: none;
 }
 }
+
 @media (max-width: 760px){
 .main__images{
   display: none;
@@ -424,6 +426,7 @@ MEDIA
   margin-top: 17px;
 }
 }
+
 @media (max-width: 470px){
   body {
     min-height: 104vh;
