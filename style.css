@@ -385,7 +385,7 @@ MEDIA
   width: 26px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 4;
   margin-left: 633px;
 }
 .menu__btn > span,
@@ -439,16 +439,18 @@ MEDIA
 #menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
+  background: #000;
 }
 #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
+  background: #000;
 }
 #menu__toggle:checked ~ .header__menu {
   visibility: visible;
   left: 0;
-  width: 752px;
-  z-index: 5;
+  z-index: 3;
+  width: 728px;
 }
 .menu__btn > span,
 .menu__btn > span::before,
