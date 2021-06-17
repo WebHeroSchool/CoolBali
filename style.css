@@ -503,12 +503,25 @@ MEDIA
   margin-top: 39px;
   margin-left: 480px;
 }
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+  background: #000;
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+  background: #000;
+}
 #menu__toggle:checked ~ .header__menu {
-    visibility: visible;
-    left: 0;
-    width: 638px;
-    z-index: 5;
-  }
+  visibility: visible;
+  left: 0;
+  z-index: 3;
+  width: 638px;
+}
 .main{
   margin-top: 40px;
 }
