@@ -37,7 +37,6 @@ body {
 	font-size: 22px;
 	padding-right: 107px;
 	margin-top: -9px;
-	
 }
 
 .header__menu-link {
@@ -73,7 +72,7 @@ body {
 
 .section-subtitle {
 	margin-left: 86px;
-  margin-top: -14px;
+  margin-top: -16px;
   color: #f8eee4;
   font: 700 98px/71px 'PT Serif';
 }
@@ -205,16 +204,16 @@ MEDIA
 }
 .section-title {
   margin-top: 141px;
-  font-size: 194px;
+  font-size: 197px;
   padding-left: 56px;
 }
 .section-subtitle {
-  margin-top: -51px;
-  margin-left: 120px;
-  font-size: 69px;
+  margin-top: -55px;
+  margin-left: 116px;
+  font-size: 70px;
 }
 .section-text {
-  margin-top: -47px;
+  margin-top: -44px;
   max-width: 399px;
   margin-left: 71px;
   font-size: 15px;
@@ -268,15 +267,16 @@ MEDIA
   margin-right: 15px;
 }
 .section-title {
-  margin-left: 81px;
+  margin-left: 76px;
 }
 .section-subtitle {
-  margin-left: 198px;
+  margin-left: 192px;
+  padding-top: 2px;
 }
 .section-text {
-  margin-left: 151px;
+  margin-left: 149px;
   font-size: 15px;
-  padding-top: 3px;
+  padding-top: 0;
 }
 .section-btn {
   margin-left: 146px;
@@ -547,7 +547,7 @@ MEDIA
 
 @media (max-width: 470px){
   body {
-    min-height: 104vh;
+    min-height: 113vh;
   }
   .logo__main {
     margin-top: -10px;
@@ -556,7 +556,11 @@ MEDIA
     margin-top: -24px;
     margin-left: 261px;
 }
-  .main{
+#menu__toggle:checked ~ .header__menu {
+  z-index: 3;
+  width: 376px;
+}
+.main{
   margin-top: 40px;
 }
 .section-title {
