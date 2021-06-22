@@ -547,7 +547,7 @@ MEDIA
 
 @media (max-width: 470px){
   body {
-    min-height: 113vh;
+    min-height: 167vh;
   }
   .logo__main {
     margin-top: -10px;
