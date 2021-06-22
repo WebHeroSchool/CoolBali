@@ -368,7 +368,7 @@ MEDIA
 }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   body {
     min-height: 100vh;
   }
@@ -489,7 +489,7 @@ MEDIA
 }
 }
 
-@media (max-width: 590px){
+@media (max-width: 590px) {
   body {
     min-height: 115vh;
 }
