@@ -4,7 +4,7 @@ body {
 	background-size: cover;
   background-position: center;
   overflow: auto;
-  min-height: 98vh;
+  min-height: 99vh;
   box-sizing: border-box;
 }
 
@@ -67,12 +67,13 @@ body {
 	color: #f8eee4;
 	opacity: 0.4;
 	margin-bottom: 0;
+  margin-top: 233px;
 	display: flex;
 }
 
 .section-subtitle {
 	margin-left: 86px;
-  margin-top: -16px;
+  margin-top: -12px;
   color: #f8eee4;
   font: 700 98px/71px 'PT Serif';
 }
@@ -123,9 +124,10 @@ body {
 
 .main__images-img:last-child {
   margin-right: 0;
-  height: 370px;
+  height: 381px;
   width: 206px;
   border-radius: 5px;
+  margin-top: -7px;
 }
 
 /*..............
