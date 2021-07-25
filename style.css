@@ -555,12 +555,21 @@ MEDIA
     margin-top: -10px;
   }
   .menu__btn {
-    margin-top: -24px;
-    margin-left: 261px;
+    margin-top: -50px;
+    margin-left: 270px;
 }
+.header__menu-link {
+  padding-top: 20px;
+  margin-right: 63px;
+}
+.header__menu-link:last-child {
+  margin-right: 62px;
+}
+
 #menu__toggle:checked ~ .header__menu {
   z-index: 3;
-  width: 376px;
+  width: 442px;
+  padding-top: 163px;
 }
 .main{
   margin-top: 40px;
