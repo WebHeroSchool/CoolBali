@@ -3,6 +3,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   overflow: auto;
   min-height: 99vh;
   box-sizing: border-box;
@@ -281,14 +282,18 @@ MEDIA
   padding-top: 0;
 }
 .section-btn {
-  margin-left: 146px;
-  margin-top: 7px;
+  margin-left: 147px;
+  margin-top: 10px;
+  padding: 12px 60px 11px 60px;
 }
-.main__images-img{
+.main__images {
+  margin-top: 178px;
+  }
+.main__images-img {
   margin-right: 25px;
 }
 .first {
-  margin-left: 38px;
+  margin-left: 39px;
 }
 .main__images-img:last-child {
   width: 36px;
@@ -297,27 +302,32 @@ MEDIA
 }
 @media (max-width: 1023px) {
   .main__images {
-    display: none;
   }
   .section {
     text-align: center;
-    padding-right: 314px;
   }
   .section-title {
-    font-size: 250px;
+    font-size: 200px;
   }
   .section-subtitle {
-     font-size: 93px;
+     font-size: 70px;
+     margin-left: 131px;
   }
   .section-text {
     font-size: 15px;
-    line-height: 26px;
-    margin-left: 200px;
+    line-height: 23px;
+    margin-left: 137px;
+  }
+  .section-btn {
+    margin-left: 84px;
+    margin-top: 10px;
+    padding: 12px 60px 11px 60px;
   }
 }
+
 @media (max-width: 975px){
 .section{
-  margin-right: 0px;
+  margin-right: 11px;
 }
 } 
 
@@ -549,6 +559,7 @@ MEDIA
 
 @media (max-width: 470px){
   body {
+    width: 0;
     min-height: 167vh;
   }
   .logo__main {
