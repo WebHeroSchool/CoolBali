@@ -566,7 +566,7 @@ MEDIA
     margin-top: -10px;
   }
   .menu__btn {
-    margin-top: -50px;
+    margin-top: -51px;
     margin-left: 270px;
 }
 .header__menu-link {
@@ -587,22 +587,22 @@ MEDIA
 }
 .section-title {
   margin-top: 42px;
-  font-size: 167px;
-  margin-left: 68px;
+  font-size: 170px;
+  margin-left: 122px;
 }
 .section-subtitle {
-  font-size: 59px;
-  margin-left: 181px;
+  font-size: 60px;
+  margin-left: 236px;
   margin-top: -47px;
   font-family: 'PT Serif';
 }
 .section-text {
   margin-top: -15px;
-  margin-left: 150px;
+  margin-left: 199px;
   font-size: 18px;
 }
 .section-btn {
-  margin-top: -9px;
-  margin-left: 110px;
+  margin-top: -7px;
+  margin-left: 168px;
 }
 }
