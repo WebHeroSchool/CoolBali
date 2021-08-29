@@ -142,20 +142,24 @@ MEDIA
 }
 
 @media(max-width: 1450px){
+  .logo {
+    padding-left: 75px;
+  }
+  .section {
+    margin-right: 134px;
+  }
 .section-subtitle {
-  font-size: 70px;
-  line-height: 93px;
+  font-size: 95px;
 }
 .section-text {
   max-width: 411px;
   font-size: 16px;
-  line-height: 19px;
 }
 .section-btn {
-  min-width: 182px;
-  padding: 13px;
+  min-width: 229px;
+  padding: 14px;
   font-size: 16px;
-  line-height: 19px;
+  margin-left: 104px;
 }
 .main__images {
   margin-right: 24px;
@@ -165,14 +169,18 @@ MEDIA
 }
 .first {
   margin-right: 26px;
-  width: 245px;
-  height: 320px;
+  width: 280px;
+  height: 402px;
 }
-.main__images:last-child {
-  width: 166px;
-  height: 290px;
+.main__images-img:last-child {
+  margin-right: 0;
+  height: 381px;
+  width: 115px;
+  border-radius: 5px;
+  margin-top: -7px;
 }
 }
+
 @media(max-width: 1366px){
 .header {
   padding-top: 52px;
@@ -397,7 +405,7 @@ MEDIA
 .menu__btn {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: absolute;
   top: 77px;
   left: -17px;
   width: 26px;
@@ -447,6 +455,7 @@ MEDIA
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
+  text-transform: lowercase;
 }
 .header__menu-link:hover {
   background-color: #cfd8dc;
@@ -548,8 +557,9 @@ MEDIA
   margin-top: 40px;
 }
 .section-title {
-  margin-top: 125px;
+  margin-top: 72px;
   font-size: 184px;
+  padding-left: 104px;
 }
 .section-subtitle {
   font-size: 62px;
@@ -601,22 +611,22 @@ MEDIA
 .section-title {
   margin-top: 42px;
   font-size: 170px;
-  margin-left: 122px;
+  margin-left: 76px;
 }
 .section-subtitle {
   font-size: 60px;
-  margin-left: 236px;
+  margin-left: 219px;
   margin-top: -67px;
   font-family: 'PT Serif';
 }
 .section-text {
-  margin-top: -15px;
-  margin-left: 211px;
-  font-size: 18px;
+  margin-top: -36px;
+  margin-left: 206px;
+  font-size: 17px;
   text-align: left;
 }
 .section-btn {
   margin-top: 7px;
-  margin-left: 161px;
+  margin-left: 143px;
 }
 }
