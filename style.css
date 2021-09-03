@@ -304,7 +304,7 @@ MEDIA
   margin-left: 39px;
 }
 .main__images-img:last-child {
-  width: 36px;
+  width: 72px;
   height: 270px;
 }
 }
@@ -335,19 +335,19 @@ MEDIA
 
 @media (max-width: 975px){
 .section{
-  margin-right: 11px;
+  margin-right: -28px;
 }
-} 
-
-@media (max-width: 975px) {
 .first {
   margin-right: 10px;
 }
 .main__images-img {
   margin-right: 10px;
 }
+.main__images-img:last-child {
+  width: 87px;
+  height: 270px;
 }
-
+}
 @media (max-width: 920px){
 .section {
 	margin-right: -42px;
